@@ -1,0 +1,12 @@
+{
+    "name": "laraveldaily/timezones",
+    "description": "testing for package",
+    "authors": [
+        {
+            "name": "HlaingTinHtun",
+            "email": "hlaingtinhtun@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
