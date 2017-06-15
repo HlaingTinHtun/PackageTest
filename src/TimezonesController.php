@@ -19,7 +19,7 @@ class TimezonesController extends Controller
         $current_time = ($timezone)
             ? Carbon::now(str_replace('-', '/', $timezone))
             : Carbon::now();
-        return view('timezones::time', compact('current_time'));
+        return view('laraveldaily/timezones/time', compact('current_time'));
     }
 
 
