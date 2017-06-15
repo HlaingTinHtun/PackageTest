@@ -7,6 +7,11 @@
             "email": "hlaingtinhtun@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Laraveldaily\\Timezones\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
